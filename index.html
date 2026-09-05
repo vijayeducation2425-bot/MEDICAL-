@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#0d1117">
+	<title>Welcome to GitHub</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="site-header">
+		<a class="brand" href="#" aria-label="GitHub home">
+			<span class="github-mark" aria-hidden="true">⌘</span>
+			<span>GitHub</span>
+		</a>
+		<nav class="main-nav" aria-label="Main navigation">
+			<a href="#explore">Explore</a>
+			<a href="#learn">Learn</a>
+			<a href="#community">Community</a>
+		</nav>
+		<div class="header-actions">
+			<a class="sign-in" href="#sign-in">Sign in</a>
+			<a class="button button-small" href="#sign-up">Sign up</a>
+		</div>
+	</header>
+
+	<main>
+		<section class="welcome-shell" aria-labelledby="welcome-title">
+			<div class="hero-copy">
+				<p class="eyebrow"><span class="eyebrow-dot"></span> The home for all developers</p>
+				<h1 id="welcome-title">Welcome<br><em>to GitHub.</em></h1>
+				<p class="hero-text">Build, scale, and deliver secure software with the world's most widely adopted developer platform.</p>
+				<div class="hero-actions">
+					<a class="button button-primary" href="#sign-up">Create your account <span aria-hidden="true">↗</span></a>
+					<a class="text-link" href="#learn">Explore GitHub <span aria-hidden="true">→</span></a>
+				</div>
+				<div class="trust-row">
+					<div class="avatar-stack" aria-hidden="true">
+						<span class="avatar avatar-one">A</span>
+						<span class="avatar avatar-two">M</span>
+						<span class="avatar avatar-three">J</span>
+						<span class="avatar avatar-four">+</span>
+					</div>
+					<p>Join <strong>100M+</strong> developers<br>building the future together</p>
+				</div>
+			</div>
+
+			<div class="hero-visual" aria-label="A preview of a GitHub project workspace">
+				<div class="visual-glow"></div>
+				<div class="code-window">
+					<div class="window-bar">
+						<span class="window-dots"><i></i><i></i><i></i></span>
+						<span class="window-path">github / getting-started</span>
+						<span class="window-menu">•••</span>
+					</div>
+					<div class="code-body">
+						<div class="line-numbers">01<br>02<br>03<br>04<br>05<br>06<br>07<br>08</div>
+						<code><span class="purple">const</span> <span class="blue">future</span> = <span class="yellow">await</span> <span class="green">build</span>({<br>&nbsp;&nbsp;ideas: <span class="orange">"unlimited"</span>,<br>&nbsp;&nbsp;team: <span class="orange">"together"</span>,<br>&nbsp;&nbsp;shipping: <span class="blue">true</span><br>});<br><span class="muted-code">// let's build something great</span><br><span class="purple">return</span> future;</code>
+					</div>
+					<div class="window-footer"><span class="status-dot"></span> main <span class="footer-divider">|</span> Updated just now <span class="check">✓</span></div>
+				</div>
+				<div class="floating-stat stat-top"><span class="stat-icon">✦</span><div><strong>Build together</strong><small>Ideas become real</small></div></div>
+				<div class="floating-stat stat-bottom"><strong>24.8k</strong><small>stars this week</small><span class="trend">↗ 18%</span></div>
+			</div>
+		</section>
+
+		<section class="feature-strip" id="explore" aria-label="GitHub highlights">
+			<div class="feature"><span class="feature-number">01</span><div><h2>Collaborate</h2><p>Work better with your team, wherever they are.</p></div><span class="feature-arrow">↗</span></div>
+			<div class="feature"><span class="feature-number">02</span><div><h2>Automate</h2><p>Ship faster with powerful workflows built in.</p></div><span class="feature-arrow">↗</span></div>
+			<div class="feature"><span class="feature-number">03</span><div><h2>Innovate</h2><p>Turn your biggest ideas into what comes next.</p></div><span class="feature-arrow">↗</span></div>
+		</section>
+	</main>
+</body>
+</html>
