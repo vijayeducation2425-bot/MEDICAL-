@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CareLedger outpatient records
 
 A local Python desktop application for maintaining outpatient records, including:
@@ -14,3 +15,6 @@ python main.py
 ```
 
 The application creates `outpatient_records.db` in the same folder on first run. It is intended for local development and demonstration; add authentication, encryption, backups and an approved clinical data policy before using it with real patient data.
+=======
+# MEDICAL-
+>>>>>>> ecddddb9895548ff577b107fc8b8a45bdcf7715f
